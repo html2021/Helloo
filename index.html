@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="_9743d8ac-e022-428e-b659-faa5bc851bab.jpg" type="image/x-icon">
   <script>
     window.addEventListener('load', function() {
     const loadingContainer = document.getElementById('loading');
@@ -14,6 +15,9 @@
         contentContainer.classList.remove('hidden');
     }, 2500); // 2.5秒の遅延を追加
     });
+    function goBack() {
+      window.history.back();
+    }
   </script>
   <title>HOME</title>
 </head>
@@ -26,8 +30,11 @@
   <div id="content" class="content-container hidden">
     <h1>このサイトはアクセスできません</h1>
     <p>申し訳ございませんが、現在このサイトへのアクセスは許可されていません。</p>
+    <p class="contact-admin">お問い合わせは<a href="mailto:admin@teamshen.tk">admin@teamshen.tk</a>まで</p>
     <p class="small-text">Sorry, access to this site is not allowed at the moment.</p>
-    <img src="_d711c205-144b-4382-890c-6d79a9f3e8f3.jpg" width="500" height="500">
+    <img src="_d711c205-144b-4382-890c-6d79a9f3e8f3.jpg" width="500" height="500"><br>
+    <a class="reseta" href="javascript:void(0);" onclick="goBack()">前のページに戻る</a>
   </div>
+  <br><br>
 </body>
 </html>

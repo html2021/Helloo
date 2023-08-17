@@ -41,7 +41,20 @@ h1 {
 p {
     color: #666;
 }
+.reseta {
+    color: #333;
+    text-decoration: none;
+}
+.reseta:active {
+    color: #333;
+}
+.reset:focus {
+    outline: none;
+}
 .small-text {
     font-size: 12px;
     color: #999;
 }
+.contact-admin {
+    margin-top: 20px;
+  }
